@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Extracted features, results, logs
+data_parsed/
+results/
+*.pt
+*.log
+*.out
+.gradio/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
